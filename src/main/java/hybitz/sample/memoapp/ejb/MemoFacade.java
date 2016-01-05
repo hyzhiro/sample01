@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jp.co.hybitz.sample.memoapp.ejb;
+package hybitz.sample.memoapp.ejb;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import jp.co.hybitz.sample.memoapp.entity.Memo;
+import hybitz.sample.memoapp.entity.Memo;
 
 /**
  *

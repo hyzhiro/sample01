@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jp.co.hybitz.sample.memoapp.bean;
+package hybitz.sample.memoapp.bean;
 
 import java.io.Serializable;
 import javax.annotation.PostConstruct;
@@ -12,8 +12,8 @@ import javax.faces.context.Flash;
 import javax.inject.Named;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
-import jp.co.hybitz.sample.memoapp.ejb.MemoFacade;
-import jp.co.hybitz.sample.memoapp.entity.Memo;
+import hybitz.sample.memoapp.ejb.MemoFacade;
+import hybitz.sample.memoapp.entity.Memo;
 import lombok.Getter;
 
 /**

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jp.co.hybitz.sample.memoapp.entity;
+package hybitz.sample.memoapp.entity;
 
 import java.io.Serializable;
 import javax.persistence.Basic;
