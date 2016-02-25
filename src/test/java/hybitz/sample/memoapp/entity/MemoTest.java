@@ -54,7 +54,7 @@ public class MemoTest {
     }
     
     @Test
-    public void memoTest(){
+    public void memoに対する設定と取得(){
         Memo memo = new Memo();
         String value = "memo";
         memo.setMemo(value);
@@ -62,7 +62,7 @@ public class MemoTest {
     }
     
     @Test
-    public void equalsTest(){
+    public void equalsに対するfalseのテスト(){
         Memo memo = new Memo();
         Object value = new String();
         assertFalse(memo.equals(value));
