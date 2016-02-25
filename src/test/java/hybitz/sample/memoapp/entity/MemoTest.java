@@ -9,6 +9,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import org.junit.After;
 import org.junit.AfterClass;
+import static org.junit.Assert.assertFalse;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -50,5 +51,20 @@ public class MemoTest {
         int id = 1;
         memo.setId(id);
         assertThat(memo.getId(),is(id));
+    }
+    
+    @Test
+    public void memoTest(){
+        Memo memo = new Memo();
+        String value = "memo";
+        memo.setMemo(value);
+        assertThat(memo.getMemo(),is(value));
+    }
+    
+    @Test
+    public void equalsTest(){
+        Memo memo = new Memo();
+        Object value = new String();
+        assertFalse(memo.equals(value));
     }
 }
